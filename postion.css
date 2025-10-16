@@ -1,0 +1,49 @@
+  .main{
+    width: 400px;
+    border:2px solid red;
+    height: 800px;
+}
+.div1{
+    width: 180px;
+    height: 180px;
+    background-color: violet;
+    position: static;
+    border: 1px solid black ;
+}
+
+.div2{
+    width: 180px;
+    height: 180px;
+    background-color:rgb(92, 102, 92);
+    position: relative;
+    top: 15px;
+    left:15px;
+    border: 1px solid black ;
+}
+.div3{
+    width: 180px;
+    height: 180px;
+    background-color:rgb(21, 21, 255);
+    position: static;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    border: 1px solid black ;
+}
+.div4{
+    width: 180px;
+    height: 180px;
+    background-color:greenyellow;
+    position:fixed;
+    bottom: 0px;
+    right: 0px;
+    border: 1px solid black ;
+}
+.div5{
+    width: 180px;
+    height: 180px;
+    background-color:orange;
+    position:sticky;
+    top:15px;
+    border: 1px solid black ;
+}
