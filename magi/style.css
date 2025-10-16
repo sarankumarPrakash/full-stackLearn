@@ -1,0 +1,48 @@
+.main { width: 400px; border: 2px solid red; height: 800px } 
+.div1 
+{ 
+    position:static; 
+    left:50px;
+     top:50px;
+      width: 150px;
+       border: 1px solid red;
+        background-color:red; 
+        height: 150px 
+    } 
+.div2 
+{
+     position:relative;
+      left: 15px;
+      top: 15px;
+       width: 150px;
+        border: 1px solid pink; 
+        background-color: pink;
+         height: 150px 
+        } 
+.div3
+ { 
+    position:absolute;
+     top:0px ;
+     right:0px;
+      width: 150px;
+       border: 1px solid blue;
+        background-color: blue;
+         height: 150px } 
+.div4 
+{
+     position:fixed; 
+     bottom: 0px; 
+     right: 0px;
+     width: 150px;
+      border: 1px solid blueviolet;
+       background-color: blueviolet;
+        height: 150px } 
+.div5 
+{
+    position: sticky;
+    top: 15px;
+     width: 150px;
+      border: 1px solid tomato;
+       background-color: tomato;
+        height: 150px 
+    }
