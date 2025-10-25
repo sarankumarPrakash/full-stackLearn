@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+}
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+    position: relative;
+    top:0;
+    flex-direction: column;
+    width: 110px;
+    height: 100vh;
+    padding: 30px;
+    background-color:beige;
+    }
+    ul>li{
+        margin:20px 0;
+
+    }
+    .one{
+       position: fixed;
+       bottom: 0;
+    }
+    a{
+        text-decoration:none;
+        color: blueviolet;
+    }
+    a:hover{
+        color: red;
+    }
+    .card{
+        width:350px;
+        padding:10px;
+        background-color: azure;
+        color:blue;
+        border-radius: 12px;
+        box-shadow: 0 12px 23px red;
+        position: absolute;
+        top: 300px;
+        left: 500px;
+    
+    }   
+    </style>
+</head>
+<body>
+    <div class="navbar">
+    <img src="./logo.jpg" height="40px" width="90px"/> 
+    <h3>Good evening Raja</h3>
+   </div>
+    <div >
+       
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Staff</a></li>
+            <li><a href="#">Settings</a></li>
+            <li class="one"><a href="#">Logout</a></li>
+        </ul>
+       
+    </div>
+     <div class="card">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem molestiae velit unde nostrum inventore porro esse sapiente in?</p>
+         <button><a href="http://127.0.0.1:5500/mn.html">Login</a></button>
+    </div>
+    
+</body>
+</html>

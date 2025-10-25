@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+        
+              display: flex;
+            flex-direction: row;
+            justify-content: start;
+            background-color: rgb(6, 6, 59);
+            padding: 18px;
+            
+            height: 40px;
+            color: white;
+        }
+        ul{
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            justify-content:space-evenly;
+            gap:50px;
+          
+        }
+        .two{
+             position: absolute;
+             right: 90px;
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+        }
+        span{
+            position: relative;
+            left: 50px;
+        }
+        
+    </style>
+</head>
+<body>
+   <span>
+    <h1>PAPERMAG</h1>
+    <P>MAGAZINE</P>
+    </span>
+    
+    <div class="one">
+        
+        <ul>
+            <li >HOME</li>
+            <li >PAGE</li>
+            <li>CATALOG</li>
+            <li>BLOG</li>
+            <li>CONTACT</li>
+             </ul>
+             <div class="two">
+            <form >
+                <input style="height: 40px;" type="text" name="search" placeholder="search" >
+            </form>
+       </div>
+    </div>
+</body>
+</html>
