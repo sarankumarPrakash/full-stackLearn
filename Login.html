@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+
+        .loginform{
+            
+          width: 500px;
+          height:300px;
+          margin: 250px  500px;
+          padding: 15px;
+          background-color: lavender;
+          font-family: 'Times New Roman', Times, serif;
+        
+          box-shadow: 0 8px 20px palevioletred;
+        }
+
+        .login input[type="text"],input[type="number"]{
+            
+            width: 95%;
+            padding: 5px;
+            margin-top: 5px;
+            border: 1px yellow;
+            border-radius: 19px;
+            font-size: 20px;
+            transition: 0.2s;
+             
+        }
+        #pass{
+            color: black;
+            cursor: pointer;
+        }
+        .button{
+           background-color: pink;
+           padding:10px 10px;
+           margin-left: 200px;
+           border-radius: 5px;
+           text-wrap: black;
+        }
+        .button :hover{
+            background-color: honeydew;
+            cursor: pointer;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="loginform">
+        <h1><b><center> LOGIN </center></b></h1>
+        
+        <div class="login">
+        <label><b> ENTER YOUR NAME </b></label>
+        <br>
+        <br>
+        <input type="text" name="name" id="name" placeholder=" Enter your name ">
+        <br>
+        <br>
+        <label><b> ENTER YOUR PASSWORD </b></label>
+        <br>
+        <br>
+        <input type="number" name="passed" id="enter"placeholder=" Enter your password ">
+        <p id="pass"><b> Forgot Password </b></p>
+        <button class="button"> SUBMIT </button></button></div>
+
+         
+    </div>
+</body>
+</html>
