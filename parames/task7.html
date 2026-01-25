@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+        background: rgb(67, 20, 175);
+        }
+        ul {
+            position: absolute;
+            right: 250px;
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            gap: 30px;
+            padding: 8px;
+            width: 100vh;
+            height: 10px;
+        }
+
+        .navbar {
+
+            padding: 15px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+            gap: 1000px;
+            background-color: white;
+        }
+        .main {
+            position: fixed;
+            left: 60px;
+            top: 100px;
+
+        }
+        h1 {
+            color: white;
+            font-size: 60px;
+        }
+
+        p {
+            position: fixed;
+            top: 340px;
+            opacity:0.9;
+            color: white;
+            font-size: x-large;
+        }
+
+        .sub {
+            position: fixed;
+            left: 60px;
+            top: 500px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            gap: 30px;
+        }
+
+        a {
+            text-decoration: none;
+            width: 150px;
+            text-align: center;
+        }
+
+        .one {
+            position: fixed;
+            bottom: 100px;
+            left: 100px;
+            display: flex;
+            gap: 50px;
+            font-size: 16px;
+            color: white;
+        }
+        img{
+            position: absolute;
+            right: 200px;
+            top:200px;
+        }
+        .two{
+            position: absolute;
+            right: 190px;
+            top:170px;
+            background-color:yellow;
+            border-radius: 8px;
+            padding: 6px 10px;
+        }
+        .three{
+            position: absolute;
+            right: 700px;
+            top: 590px;
+            background-color: white;
+            border-radius: 8px;
+            padding: 6px 10px;
+        }
+       
+    </style>
+</head>
+
+<body></body>
+<div class="navbar">
+    <h3
+        style="background-color: blue; width: 100px; height: 10px; color: white; border-radius: 15px; padding: 8px 8px 20px; text-align: center;">
+        AESCION</h3>
+    <ul>
+        <li>Home</li>
+        <li>Courses</li>
+        <li>Contact</li>
+
+    </ul>
+    <button
+        style="background-color: blue; width: 120px; height: 30px; color: white; border-radius: 10px; padding: 8px 8px;  text-align: center;">
+        Enquiry Form</button>
+</div>
+<section>
+    <div class="main">
+        <h1>Transform your<br>
+            <b style="color: yellow;"> Career</b><br>
+            with AESCION
+        </h1>
+        <p>Master cutting-edge technologies with industry experts.<br>
+            Build your future in tech with hands-on training and real-<br>
+            world project.
+        </p>
+    </div>
+    <div class="sub">
+        <a href="" style="background-color: rgb(255, 255, 0); padding: 20px; border-radius: 10px; ">Explore courses </a>
+        <a href="" style="border: 1px solid white; color: white; padding: 20px; border-radius: 10px;">Watch Demo</a>
+    </div>
+    <div class="one">
+        <div><strong style="color: yellow; font-size: 22px;">5000+</strong><br>Students Trained</div>
+        <div><strong style="color: yellow; font-size: 22px;">95%</strong><br>Placement Rate</div>
+        <div><strong style="color: yellow; font-size: 22px;">50+</strong><br>Industry Partners</div>
+    </div>
+    <div >
+        <img src="./computer.jpg" width="600px"   height="400px" style="border-radius: 10px;"   alt="photo"/>
+        <div class="two"> Industry Certified</div>
+            <div class="three"> 100% Practical</div>
+    </div>
+</section>
+</body>
+
+</html>
